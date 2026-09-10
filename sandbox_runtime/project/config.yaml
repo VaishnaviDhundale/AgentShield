@@ -1,0 +1,7 @@
+server:
+  host: "127.0.0.1"
+  port: 8080
+  debug: true
+
+database:
+  url: "sqlite:///database/fake_users.db"

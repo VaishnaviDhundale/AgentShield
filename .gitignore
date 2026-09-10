@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Python coverage
+.coverage
+htmlcov/
+
+# Build/cache
+*.pyc
